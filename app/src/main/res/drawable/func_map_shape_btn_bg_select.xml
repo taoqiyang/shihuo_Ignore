@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/util_theme_color_app_white" />
+    <corners android:radius="@dimen/func_map_btn_bg_corner" />
+    <stroke
+        android:width="@dimen/func_map_btn_border_w"
+        android:color="@color/util_theme_color_app_text_gray" />
+</shape>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+
+
+    <style name="func_map_map_control_btn_style">
+        <item name="android:layout_width">@dimen/func_map_map_control_btn_size</item>
+        <item name="android:layout_height">@dimen/func_map_map_control_btn_size</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:background">@drawable/func_map_selector_mapcontrol_btn_bg</item>
+    </style>
+
+</resources>

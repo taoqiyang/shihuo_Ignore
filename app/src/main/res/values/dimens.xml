@@ -1,0 +1,82 @@
+<resources>
+
+	<!--大小定义  以下-->
+	<dimen name="util_theme_dimens_dp5">5dp</dimen>
+	<dimen name="util_theme_dimens_dp10">10dp</dimen>
+	<dimen name="util_theme_dimens_dp16">16dp</dimen>
+	<dimen name="util_theme_dimens_dp20">20dp</dimen>
+	
+	<dimen name="util_theme_dimens_sp12">12sp</dimen>
+	<dimen name="util_theme_dimens_sp14">14sp</dimen>
+	<dimen name="util_theme_dimens_sp16">16sp</dimen>
+	<dimen name="util_theme_dimens_sp18">18sp</dimen>
+	<dimen name="util_theme_dimens_sp20">20sp</dimen>
+	<!--大小定义  以上-->
+
+	<!--margin  以下-->
+	<dimen name="util_theme_dimens_margin_common">12dp</dimen>
+    <dimen name="util_theme_dimens_margin_common_double">24dp</dimen>
+	<dimen name="util_theme_dimens_padding_edit_text_left_right">6dp</dimen>
+	<!--margin  以上-->
+
+	<!--height  以下-->
+	<!--通用-->
+	<dimen name="util_theme_dimens_height_common">40dp</dimen>
+	<!--编辑框高度-->
+	<dimen name="util_theme_dimens_height_edit_text">40dp</dimen>
+	<!--编辑框高度-小-->
+	<dimen name="util_theme_dimens_height_edit_text_small">36dp</dimen>
+	<!--大按钮-->
+	<dimen name="util_theme_dimens_height_btn_big">40dp</dimen>
+	<!--小按钮-->
+	<dimen name="util_theme_dimens_height_btn_small">26dp</dimen>
+	<!--主页面tab条-->
+	<dimen name="util_theme_dimens_height_tab_main">48dp</dimen>
+	<!--actionbar-->
+	<dimen name="util_theme_dimens_height_actionbar">48dp</dimen>
+	<!--过滤排序条-->
+	<dimen name="util_theme_dimens_height_filter_sorter">36dp</dimen>
+	<!--菜单item的高度-->
+	<dimen name="util_theme_dimens_height_menu_item">36dp</dimen>
+	<!--列表item为单行内容时的高度-->
+	<dimen name="util_theme_dimens_height_list_item_1">44dp</dimen>
+	<!--列表item为双行内容时的高度-->
+	<dimen name="util_theme_dimens_height_list_item_2">60dp</dimen>
+	<!--通用-->
+	<dimen name="util_theme_dimens_height_divider">0.8dp</dimen>
+	<!--右侧箭头大小-->
+	<dimen name="util_theme_dimens_height_arrow_right">14dp</dimen>
+
+	<dimen name="util_theme_dimens_height_actionbar_edit_text">@dimen/util_theme_dimens_height_edit_text_small</dimen>
+	<!--height  以上-->
+
+	<!--size  以下-->
+	<!--图标按钮的大小-->
+	<dimen name="util_theme_dimens_size_btn_icon">36dp</dimen>
+	<!--size  以上-->
+
+	<!--text  以下-->
+	<!--actionbar-->
+	<!--标题文字大小-->
+	<dimen name="util_theme_dimens_text_actionbar_title">18sp</dimen>
+	<!--标题文字大小，非sp-->
+	<integer name="util_theme_dimens_text_actionbar_title_int">18</integer>
+
+	<!--文字大小-->
+	<!--最大字体-->
+	<dimen name="util_theme_dimens_text_max">20sp</dimen>
+	<dimen name="util_theme_dimens_text_title_num">18sp</dimen>
+	<dimen name="util_theme_dimens_text_title">16sp</dimen>
+	<dimen name="util_theme_dimens_text_text">14sp</dimen>
+	<dimen name="util_theme_dimens_text_note">12sp</dimen>
+	<dimen name="util_theme_dimens_text_min">9sp</dimen>
+	<!--text  以上-->
+
+
+	<dimen name="monitor_list_min_height">135dp</dimen>
+	<dimen name="func_map_map_control_btn_size">@dimen/util_theme_dimens_size_btn_icon</dimen>
+	<dimen name="func_map_btn_bg_corner">2.5dp</dimen>
+	<dimen name="func_map_btn_border_w">0.8dp</dimen>
+	<dimen name="func_map_map_locate_btn_marginB">160dp</dimen>
+
+</resources>

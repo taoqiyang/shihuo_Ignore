@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ignore</string>
+
+
+    <!--for author -->
+    <string name="module_base_string_need_permission">为了功能可以正常使用，请同意我们向您申请的几个手机权限，谢谢!</string>
+    <string name="module_base_string_rationale_ask_again">为了功能可以正常使用，请先到设置界面修改应用权限.</string>
+    <string name="module_base_string_title_permission_short">权限不足</string>
+    <string name="module_base_string_go2_setting">去设置</string>
+    <string name="module_base_string_exit">退出</string>
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mousepaint.taoqiyang.com.ignore.MainActivity">
+
+    <com.tencent.tencentmap.mapsdk.map.MapView
+        android:id="@+id/mapView"
+        android:layout_marginBottom="@dimen/monitor_list_min_height"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|end"
+        android:layout_marginRight="@dimen/util_theme_dimens_margin_common"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginEnd="@dimen/util_theme_dimens_margin_common">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dip"
+            android:background="@drawable/func_map_shape_btn_bg_normal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ivZoomIn"
+                style="@style/func_map_map_control_btn_style"
+                android:background="@android:color/transparent"
+                android:src="@drawable/func_map_ic_zoomin_normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#fff0f0f0" />
+
+            <ImageView
+                android:id="@+id/ivZoomOut"
+                style="@style/func_map_map_control_btn_style"
+                android:background="@android:color/transparent"
+                android:src="@drawable/func_map_ic_zoomout_normal" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ivZoomFull"
+            style="@style/func_map_map_control_btn_style"
+            android:src="@drawable/func_map_ic_zoomfull_normal" />
+    </LinearLayout>
+
+
+    <ImageButton
+        android:id="@+id/ivLocate"
+        style="@style/func_map_map_control_btn_style"
+        android:layout_marginBottom="@dimen/func_map_map_locate_btn_marginB"
+        android:layout_marginLeft="@dimen/util_theme_dimens_margin_common"
+        android:layout_gravity="bottom"
+        android:src="@drawable/func_map_ic_locate_normal"
+        android:layout_marginStart="@dimen/util_theme_dimens_margin_common" />
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/util_theme_dimens_height_divider"
+        android:layout_gravity="bottom">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            app:behavior_hideable="false"
+            app:layout_behavior="android.support.design.widget.BottomSheetBehavior" />
+
+        <LinearLayout
+            android:id="@+id/llTitle"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="top"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal"
+            app:layout_anchor="@id/recyclerView"
+            app:layout_anchorGravity="top">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="站点"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="@dimen/util_theme_dimens_height_divider"
+                android:layout_height="match_parent"
+                android:background="@android:color/white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="状态"
+                android:textColor="@android:color/white"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</FrameLayout>

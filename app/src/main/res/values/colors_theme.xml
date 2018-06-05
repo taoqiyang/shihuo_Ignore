@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--颜色定义  以下-->
+    <!--禁止直接调用此处定义的颜色-->
+    <color name="util_theme_color_tone">#ff3884FB</color>
+    <color name="util_theme_color_red">#ffdf3030</color>
+    <color name="util_theme_color_white">#ffffffff</color>
+    <color name="util_theme_color_gray_244">#fff4f4f4</color>
+    <color name="util_theme_color_gray_240">#fff0f0f0</color>
+    <color name="util_theme_color_gray_239243244">#ffeff3f4</color>
+    <color name="util_theme_color_gray_230">#ffe6e6e6</color>
+    <color name="util_theme_color_gray_200">#ffc8c8c8</color>
+    <color name="util_theme_color_gray_170">#ffaaaaaa</color>
+    <color name="util_theme_color_black">#ff000000</color>
+    <color name="util_theme_color_black_40">#ff282828</color>
+    <color name="util_theme_color_black_60">#ff3c3c3c</color>
+    <color name="util_theme_color_black_100">#ff646464</color>
+    <color name="util_theme_color_black_120">#ff787878</color>
+    <!--70%黑-->
+    <color name="util_theme_color_black_alpha_70">#b4000000</color>
+    <!--80%白-->
+    <color name="util_theme_color_white_alpha_86">#dcffffff</color>
+    <!--颜色定义  以上-->
+
+
+    <!--app通用颜色  以下-->
+    <!--可点击的文字-->
+    <!--主色调-->
+    <color name="util_theme_color_app_tone">@color/util_theme_color_tone</color>
+    <!--红色-->
+    <color name="util_theme_color_app_red">@color/util_theme_color_red</color>
+    <!--白色-->
+    <color name="util_theme_color_app_white">@color/util_theme_color_white</color>
+    <!--黑色-->
+    <color name="util_theme_color_app_black">@color/util_theme_color_black</color>
+
+    <!--最底层背景-->
+    <color name="util_theme_color_app_bg_floor">@color/util_theme_color_gray_239243244</color>
+    <!--通用背景-->
+    <color name="util_theme_color_app_bg">@color/util_theme_color_white</color>
+    <!--菜单背景-->
+    <color name="util_theme_color_app_bg_menu">@color/util_theme_color_black_60</color>
+    <!--文字背景-->
+    <color name="util_theme_color_app_bg_text">@color/util_theme_color_gray_244</color>
+    <!--遮罩背景-->
+    <color name="util_theme_color_app_bg_cover">@color/util_theme_color_black_alpha_70</color>
+
+    <!--黑色文字-->
+    <color name="util_theme_color_app_text_black">@color/util_theme_color_black_60</color>
+    <!--浅黑色文字-->
+    <color name="util_theme_color_app_text_black_light">@color/util_theme_color_black_100</color>
+    <!--浅浅黑色文字-->
+    <color name="util_theme_color_app_text_black_light_light">@color/util_theme_color_black_120</color>
+    <!--灰色文字-->
+    <color name="util_theme_color_app_text_gray">@color/util_theme_color_gray_170</color>
+    <!--浅灰色文字-->
+    <color name="util_theme_color_app_text_gray_light">@color/util_theme_color_gray_200</color>
+    <!--浅浅灰色文字-->
+    <color name="util_theme_color_app_text_gray_light_light">@color/util_theme_color_gray_230</color>
+    <!--白色文字-->
+    <color name="util_theme_color_app_text_white">@color/util_theme_color_white</color>
+
+    <!--hint文字-->
+    <color name="util_theme_color_app_text_hint">@color/util_theme_color_app_text_gray</color>
+    <!--可点击的文字-->
+    <color name="util_theme_color_app_text_clickable">@color/util_theme_color_tone</color>
+    <!--可点击的文字－点击后-->
+    <color name="util_theme_color_app_text_clicked">@color/util_theme_color_app_text_gray</color>
+
+    <!--分割线-->
+    <color name="util_theme_color_app_line_divider">@color/util_theme_color_gray_240</color>
+    <!--线框-->
+    <color name="util_theme_color_app_line_stroke">@color/util_theme_color_gray_230</color>
+    <!--app通用颜色  以上-->
+
+
+    <!--标题栏  以下-->
+    <!--背景-->
+    <color name="util_theme_color_actionbar_bg">@color/util_theme_color_white</color>
+    <!--状态栏背景-->
+    <color name="util_theme_color_actionbar_status_bg">@color/util_theme_color_black_40</color>
+    <!--编辑框背景-->
+    <color name="util_theme_color_actionbar_bg_edit_text">@color/util_theme_color_app_bg_text</color>
+    <!--标题文字-->
+    <color name="util_theme_color_actionbar_text_title">@color/util_theme_color_app_text_black</color>
+
+    <!--深色actionbar背景-->
+    <color name="util_theme_color_actionbar_dark_bg">@color/util_theme_color_black_60</color>
+    <!--深色actionbar标题文字-->
+    <color name="util_theme_color_actionbar_dark_text_title">@color/util_theme_color_app_text_white</color>
+    <!--标题栏  以上-->
+
+
+</resources>

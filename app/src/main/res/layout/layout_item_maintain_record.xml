@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_maintain_record"
+    android:padding="@dimen/util_theme_dimens_margin_common"
+    android:layout_marginTop="@dimen/util_theme_dimens_margin_common"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="时间"
+        android:textColor="#282828"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tvRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="记录"
+        android:textColor="#282828"
+        android:textSize="16sp" />
+
+</LinearLayout>
